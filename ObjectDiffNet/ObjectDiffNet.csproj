@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>0.0.1</Version>
+    <Version>0.0.3</Version>
     <Authors>Lee Dale</Authors>
     <Description>Shared .NET object diff library.</Description>
     <IsPackable>true</IsPackable>
@@ -10,5 +10,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\LICENSE" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
