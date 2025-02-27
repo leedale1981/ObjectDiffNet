@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDiffNet.Extensions.EntityFramework", "..\..\ObjectDiffNet.Extensions.EntityFramework\ObjectDiffNet.Extensions.EntityFramework\ObjectDiffNet.Extensions.EntityFramework.csproj", "{02771373-87E3-4948-85D1-ED2A80B9F839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDiffNet.Extensions.EntityFramework.Tests", "..\..\ObjectDiffNet.Extensions.EntityFramework\ObjectDiffNet.Extensions.EntityFramework.Tests\ObjectDiffNet.Extensions.EntityFramework.Tests.csproj", "{78A85BAA-6203-4B3B-BBA4-F88DE01399B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +35,13 @@ Global
 		{91B955C9-347E-4C70-8373-043C626AA0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91B955C9-347E-4C70-8373-043C626AA0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91B955C9-347E-4C70-8373-043C626AA0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02771373-87E3-4948-85D1-ED2A80B9F839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02771373-87E3-4948-85D1-ED2A80B9F839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02771373-87E3-4948-85D1-ED2A80B9F839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02771373-87E3-4948-85D1-ED2A80B9F839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A85BAA-6203-4B3B-BBA4-F88DE01399B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A85BAA-6203-4B3B-BBA4-F88DE01399B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A85BAA-6203-4B3B-BBA4-F88DE01399B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A85BAA-6203-4B3B-BBA4-F88DE01399B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

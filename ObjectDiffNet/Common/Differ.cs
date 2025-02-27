@@ -4,6 +4,12 @@ namespace ObjectDiffNet.Common;
 
 public class Differ : IDiffer
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="original"></param>
+    /// <param name="modified"></param>
+    /// <returns></returns>
     public IEnumerable<Difference> GetDifferences(object original, object modified)
     {
         List<Difference> differences = new();
@@ -23,7 +29,12 @@ public class Differ : IDiffer
             
             if (!Equals(originalValue, modifiedValue))
             {
-                differences.Add(new(property.Name, originalValue.ToString(), modifiedValue.ToString(), property.PropertyType));
+                differences.Add(new(
+                    originalType.Name, 
+                    property.Name, 
+                    originalValue.ToString(), 
+                    modifiedValue.ToString(), 
+                    property.PropertyType));
             }
         }
 
