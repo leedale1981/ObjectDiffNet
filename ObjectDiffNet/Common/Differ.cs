@@ -5,18 +5,18 @@ namespace ObjectDiffNet.Common;
 public class Differ : IDiffer
 {
     /// <summary>
-    /// 
+    /// Returns a list of differences between two objects.
     /// </summary>
-    /// <param name="original"></param>
-    /// <param name="modified"></param>
-    /// <returns></returns>
+    /// <param name="original">Original object.</param>
+    /// <param name="modified">Modified object.</param>
+    /// <returns>IEnumerable of Differences.</returns>
     public IEnumerable<Difference> GetDifferences(object original, object modified)
     {
         List<Difference> differences = new();
         
         if (original == null || modified == null)
         {
-            return differences;
+            throw new ArgumentException("Both original and modified objects must be provided and non null.");
         }
         
         Type originalType = original.GetType();
