@@ -4,7 +4,7 @@ namespace ObjectDiffNet.Common;
 
 public class Differ : IDiffer
 {
-    /// <summary>
+    /// <summary> 
     /// Returns a list of differences between two objects.
     /// </summary>
     /// <param name="original">Original object.</param>
