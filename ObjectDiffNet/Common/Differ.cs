@@ -34,7 +34,7 @@ public class Differ : IDiffer
                     property.Name, 
                     originalValue.ToString(), 
                     modifiedValue.ToString(), 
-                    property.PropertyType));
+                    property.PropertyType.ToString()));
             }
         }
 
